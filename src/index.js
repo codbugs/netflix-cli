@@ -1,8 +1,7 @@
 const CSVer = require('csver');
 const data = new CSVer('./data/netflix_titles.csv').asObject();
-// const data = new CSVer('./data/test.csv').asObject();
-const { Command } = require('commander');
 
+const { Command } = require('commander');
 const app = new Command();
 
 const Detail = require('./command/detail.js');
