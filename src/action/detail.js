@@ -10,7 +10,7 @@ module.exports = function(id) {
             const isTheSameId = safeChunk.show_id === id;
 
             if(isTheSameId) {
-                this.push(chunk);
+                this.push(safeChunk);
             }
 
             next();

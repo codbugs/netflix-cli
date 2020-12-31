@@ -1,7 +1,7 @@
 const _ = require('lodash');
 const { Command } = require('commander');
 const DetailAction = require('../action/detail.js');
-const OutputAction = require('../action/output/output.js');
+const OutputAction = require('../action/output/detail.js');
 
 module.exports = function(data) {
     const command = new Command('detail');
